@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from 'semantic-ui-react'; // Testing if needed intead of <footer>
 
 const Footer = () => {
   return (
