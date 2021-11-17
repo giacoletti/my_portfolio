@@ -10,5 +10,11 @@
     "name": "FizzBuzz",
     "image": "https://i.ibb.co/B6Tq7VQ/fizz-buzz-ruby.png",
     "description": "Small FizzBuzz game simulator, written in Ruby."
+  },
+  {
+    "id": 3,
+    "name": "Address Book",
+    "image": "https://i.ibb.co/74C0WRY/Address-book.png",
+    "description": "Address book application with more features on the way."
   }
 ]
