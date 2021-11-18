@@ -21,4 +21,8 @@ describe('ProjectCard.jsx', () => {
   it('is expected to display the description of the project', () => {
     expect(screen.getByText('This was my first project.')).toBeVisible();
   });
+
+  it('is expected to display image of project', () => {
+    expect(screen.getByAltText('My Test Website image')).toBeVisible();
+  });
 });
