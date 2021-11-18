@@ -15,6 +15,6 @@ describe('ProjectCard.jsx', () => {
   });
 
   it('is expected to display the title of the project', () => {
-      expect(screen.getByText('My Test Website')).toBeInTheDocument();
+      expect(screen.getByText('My Test Website')).toBeVisible();
   });
 });

@@ -10,6 +10,6 @@ describe('Footer.jsx', () => {
   it('is expected to display footer message', () => {
     expect(
       screen.getByText(`Made with React ${React.version}`)
-    ).toBeInTheDocument();
+    ).toBeVisible();
   });
 });
