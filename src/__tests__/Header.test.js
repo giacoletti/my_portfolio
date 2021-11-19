@@ -15,4 +15,12 @@ describe('Header.jsx', () => {
   it('is expected to display "My Portfolio" menu item', () => {
     expect(screen.getByText('My Portfolio')).toBeVisible();
   });
+
+  it('is expected to display "About Me" menu item', () => {
+    expect(screen.getByText('About Me')).toBeVisible();
+  });
+
+  it('is expected to display "My Projects" menu item', () => {
+    expect(screen.getByText('My Projects')).toBeVisible();
+  });
 });
