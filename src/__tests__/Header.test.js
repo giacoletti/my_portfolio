@@ -23,4 +23,8 @@ describe('Header.jsx', () => {
   it('is expected to display "My Projects" menu item', () => {
     expect(screen.getByText('My Projects')).toBeVisible();
   });
+
+  it('is expected to display "CV" menu item', () => {
+    expect(screen.getByText('CV')).toBeVisible();
+  });
 });
