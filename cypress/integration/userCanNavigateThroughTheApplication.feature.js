@@ -20,8 +20,12 @@ describe("User can navigate the app", () => {
       cy.get("#project-header").should("not.exist");
     });
 
-    it("does not display Hello World", () => {
+    it("does not display Welcome header", () => {
       cy.get("#hello").should("not.exist");
+    });
+
+    it("does not display CV header", () => {
+      cy.get("#cv-header").should("not.exist");
     });
   });
 
@@ -42,8 +46,38 @@ describe("User can navigate the app", () => {
       cy.get("#about-header").should("not.exist");
     });
 
-    it("does not display Hello World", () => {
+    it("does not display Welcome header", () => {
       cy.get("#hello").should("not.exist");
+    });
+
+    it("does not display CV header", () => {
+      cy.get("#cv-header").should("not.exist");
+    });
+  });
+
+  describe("to CV tab and it", () => {
+    beforeEach(() => {
+      cy.get("#cv-tab").click();
+    });
+
+    it("displays CV header", () => {
+      cy.get("#cv-header").should("contain", "Giovanni Iacoletti");
+    });
+
+    it("displays component name in url", () => {
+      cy.url().should("contain", "CV");
+    });
+
+    it("does not display Welcome header", () => {
+      cy.get("#hello").should("not.exist");
+    });
+
+    it("does not display About Me header", () => {
+      cy.get("#about-header").should("not.exist");
+    });
+
+    it("does not display My Projects header", () => {
+      cy.get("#projects-header").should("not.exist");
     });
   });
 
@@ -69,6 +103,9 @@ describe("User can navigate the app", () => {
     it("does not display My Projects header", () => {
       cy.get("#projects-header").should("not.exist");
     });
-  });
 
+    it("does not display CV header", () => {
+      cy.get("#cv-header").should("not.exist");
+    });
+  });
 });
