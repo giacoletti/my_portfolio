@@ -25,7 +25,7 @@ const Projects = () => {
 
   return (
     <Container>
-      <h1 id="project-header">My Projects</h1>
+      <h1 id="projects-header">My Projects</h1>
       <Grid>{projectList}</Grid>
     </Container>
   );
