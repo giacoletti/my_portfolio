@@ -8,6 +8,6 @@ describe('About.jsx', () => {
   });
 
   it('is expected to display About Me header', () => {
-      expect(screen.getByText('About Me')).toBeVisible();
+    expect(screen.getByText('About Me')).toBeVisible();
   });
 });
