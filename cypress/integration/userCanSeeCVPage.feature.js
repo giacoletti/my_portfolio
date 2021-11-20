@@ -41,4 +41,19 @@ describe("User can see CV page", () => {
     });
   });
 
+  describe("displays Education section", () => {
+    it("displays Education header", () => {
+      cy.get("#education-header").should("contain", "Education");
+    });
+
+    it("displays the latest education", () => {
+      cy.get("#education-1").within(() => {
+        cy.get(".header").should("contain", "Parthenope University of Naples");
+        cy.get(".header").should("contain", "Bachelor of Computer Science (discontinued)");
+        cy.get(".educationDate").should("contain", "2016");
+        cy.get(".description").should("contain", "Programming, Computer Architecture, Databases, Physics, Business Economy, English");
+      });
+    });
+  });
+  
 });

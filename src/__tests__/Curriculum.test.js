@@ -14,4 +14,8 @@ describe('Curriculum.jsx', () => {
   it('is expected to display Work Experience header', () => {
     expect(screen.getByText('Work Experience')).toBeVisible();
   });
+
+  it('is expected to display Education header', () => {
+    expect(screen.getByText('Education')).toBeVisible();
+  });
 });
