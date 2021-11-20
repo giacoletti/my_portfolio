@@ -23,3 +23,7 @@ footer {
 .ui.card.jobCard {
   margin-bottom: 1em !important;
 }
+
+#work-experience-header, #projects-header {
+  margin-bottom: 1em;
+}
