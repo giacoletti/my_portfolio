@@ -2,7 +2,7 @@
   {
     "id": 1,
     "company": "BMD Constructions",
-    "jobtitle": "Construction Labourer",
+    "jobTitle": "Construction Labourer",
     "period": "May 2020 - March 2021",
     "description": "Spotting excavators for precise excavation operations, laying pipes, steel fixing, operating power tools etc.",
     "link": "https://www.bmd.com.au/our-companies/bmd-constructions/"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "company": "Southern Riverina Labour Contracting Pty Ltd",
-    "jobtitle": "Agricultural and Factory Labourer",
+    "jobTitle": "Agricultural and Factory Labourer",
     "period": "November 2019 - March 2020",
     "description": "Weeding seed and grain crops by hand or using a hoe. Handling tomato sauce cans and bottles for labelling and packing. Sorting tomatoes on the tomato harvester and cleaning the machine on the go.",
     "link": "https://opencorpdata.com/au/162201998"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "company": "Dekker Landscapes Pty Ltd",
-    "jobtitle": "Landscaper",
+    "jobTitle": "Landscaper",
     "period": "May 2019 - November 2019",
     "description": "Weeding, digging trenches, laying pipes, mixing concrete, using power tools, steel fixing. Preparing the final touches for client delivery.",
     "link": "https://www.dekkerlandscapes.com.au/"

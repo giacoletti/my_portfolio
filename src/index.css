@@ -13,8 +13,13 @@ footer {
 
 .container {
   margin-top: 4em;
+  padding-bottom: 5em;
 }
 
 .ui.card.projectCard {
   margin-bottom: 5em !important;
+}
+
+.ui.card.jobCard {
+  margin-bottom: 1em !important;
 }
