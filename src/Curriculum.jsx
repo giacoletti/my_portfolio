@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Header, Grid, Card } from 'semantic-ui-react';
+import { Container, Header, Card } from 'semantic-ui-react';
 import axios from 'axios';
 import JobCard from './JobCard';
 
