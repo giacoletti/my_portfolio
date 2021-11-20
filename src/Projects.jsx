@@ -16,11 +16,9 @@ const Projects = () => {
   });
 
   useEffect(() => {
-
     axios.get("./data/projects.json").then((response) => {
       setProjects(response.data);
     });
-
   }, []);
 
   return (
