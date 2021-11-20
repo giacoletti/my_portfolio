@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Grid } from 'semantic-ui-react';
+import { Container, Grid, Header } from 'semantic-ui-react';
 import axios from 'axios';
 import ProjectCard from './ProjectCard';
 
@@ -23,7 +23,7 @@ const Projects = () => {
 
   return (
     <Container>
-      <h1 id="projects-header">My Projects</h1>
+      <Header as="h1" id="projects-header">My Projects</Header>
       <Grid>{projectList}</Grid>
     </Container>
   );
