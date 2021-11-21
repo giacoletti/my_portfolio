@@ -90,6 +90,10 @@ describe("User can navigate the app", () => {
       cy.get("#hello").should("contain", "Welcome to my portfolio");
     });
 
+    it("displays homepage content", () => {
+      cy.get("#home-content").should("be.visible");
+    });
+
     it("displays correct url", () => {
       cy.url()
         .should("not.contain", "projects")
