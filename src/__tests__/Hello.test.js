@@ -8,6 +8,6 @@ describe('Hello.jsx', () => {
   });
 
   it('is expected to display a welcome message', () => {
-    expect(screen.getByText('Welcome')).toBeVisible();
+    expect(screen.getByText('Welcome to my portfolio')).toBeVisible();
   });
 });
