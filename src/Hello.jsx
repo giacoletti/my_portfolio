@@ -19,7 +19,7 @@ const Hello = () => {
           </Grid.Row>
           <Grid.Row>
             <Grid.Column>
-              <a href="https://reactjs.org/"><Icon name='react' size="huge" /></a>
+              <a href="https://reactjs.org/"><Icon name='react' size="huge" id="react-icon"/></a>
               <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><Icon name='html5' size="huge" color="red" /></a>
               <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><Icon name='css3' size="huge" /></a>
               <a href="https://nodejs.org/en/"><Icon name='node' size="huge" color="green" /></a>
