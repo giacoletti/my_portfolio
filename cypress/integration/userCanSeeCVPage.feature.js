@@ -43,6 +43,14 @@ describe("User can see CV page", () => {
         cy.get(".description").should("contain", "Weeding, digging trenches, laying pipes, mixing concrete, using power tools, steel fixing. Preparing the final touches for client delivery.");
       });
     });
+
+    it("displays the fourth to last work experience", () => {
+      cy.get("#job-4").within(() => {
+        cy.get(".header").should("contain", "Import IT Consulting");
+        cy.get(".header").should("contain", "SAP Abap Analyst Developer");
+        cy.get(".jobDate").should("contain", "May 2017 - August 2018");
+      });
+    });
   });
 
   describe("displays Education section", () => {
