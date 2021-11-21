@@ -8,4 +8,8 @@ describe("User can see About Me page", () => {
     cy.get("#about-header")
       .should("contain", "About Me").should("be.visible");
   });
+
+  it("displays About Me content", () => {
+    cy.get(".aboutMeContent").should("be.visible");
+  });
 });
