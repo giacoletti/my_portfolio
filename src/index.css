@@ -20,7 +20,7 @@ footer {
   margin-bottom: 5em !important;
 }
 
-.ui.card.jobCard {
+.ui.card.jobCard, .ui.card.educationCard {
   margin-bottom: 1em !important;
 }
 
