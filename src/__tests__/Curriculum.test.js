@@ -11,6 +11,10 @@ describe('Curriculum.jsx', () => {
     expect(screen.getByText('Giovanni Iacoletti')).toBeVisible();
   });
 
+  it('is expected to display current activity header', () => {
+    expect(screen.getByText('Apprentice Full Stack Developer at Craft Academy')).toBeVisible();
+  });
+
   it('is expected to display Work Experience header', () => {
     expect(screen.getByText('Work Experience')).toBeVisible();
   });

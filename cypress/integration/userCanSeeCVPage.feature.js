@@ -8,11 +8,15 @@ describe("User can see CV page", () => {
     cy.get("#cv-header").should("contain", "Giovanni Iacoletti");
   });
 
+  it("displays current activity header", () => {
+    cy.get("#current-activity-header").should("contain", "Apprentice Full Stack Developer at Craft Academy");
+  });
+
   describe("displays Work Experience section", () => {
     it("displays Work Experience header", () => {
       cy.get("#work-experience-header").should("contain", "Work Experience");
     });
-  
+
     it("displays the latest work experience", () => {
       cy.get("#job-1").within(() => {
         cy.get(".header").should("contain", "BMD Constructions");
@@ -21,7 +25,7 @@ describe("User can see CV page", () => {
         cy.get(".description").should("contain", "Spotting excavators for precise excavation operations, laying pipes, steel fixing, operating power tools etc.");
       });
     });
-  
+
     it("displays the second to last work experience", () => {
       cy.get("#job-2").within(() => {
         cy.get(".header").should("contain", "Southern Riverina Labour Contracting Pty Ltd");
@@ -30,7 +34,7 @@ describe("User can see CV page", () => {
         cy.get(".description").should("contain", "Weeding seed and grain crops by hand or using a hoe. Handling tomato sauce cans and bottles for labelling and packing. Sorting tomatoes on the tomato harvester and cleaning the machine on the go.");
       });
     });
-  
+
     it("displays the third to last work experience", () => {
       cy.get("#job-3").within(() => {
         cy.get(".header").should("contain", "Dekker Landscapes Pty Ltd");
@@ -55,5 +59,5 @@ describe("User can see CV page", () => {
       });
     });
   });
-  
+
 });
