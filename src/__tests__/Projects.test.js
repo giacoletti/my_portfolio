@@ -1,10 +1,10 @@
 import React from 'react';
-import Projects from '../Projects';
+import Projects from '../components/Projects';
 import { render, screen, act } from '@testing-library/react';
-import axios from 'axios';
+// import axios from 'axios';
 
 describe('Projects.jsx', () => {
-  let axiosSpy;
+  // let axiosSpy;
 
   const mockedResponse = [
     {

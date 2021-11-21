@@ -1,5 +1,5 @@
 import React from 'react';
-import Hello from '../Hello';
+import Hello from '../components/Hello';
 import { render, screen } from '@testing-library/react';
 
 describe('Hello.jsx', () => {

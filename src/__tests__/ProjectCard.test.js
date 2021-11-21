@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCard from '../ProjectCard';
+import ProjectCard from '../components/ProjectCard';
 import { render, screen } from '@testing-library/react';
 
 const project = {

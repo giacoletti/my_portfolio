@@ -1,5 +1,5 @@
 import React from 'react';
-import About from '../About';
+import About from '../components/About';
 import { render, screen } from '@testing-library/react';
 
 describe('About.jsx', () => {

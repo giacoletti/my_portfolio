@@ -1,5 +1,5 @@
 import React from 'react';
-import JobCard from '../JobCard';
+import JobCard from '../components/JobCard';
 import { screen, render } from '@testing-library/react';
 
 const job = {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Curriculum from '../Curriculum';
+import Curriculum from '../components/Curriculum';
 import { render, screen } from '@testing-library/react';
 
 describe('Curriculum.jsx', () => {

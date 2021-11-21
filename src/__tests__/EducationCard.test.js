@@ -1,5 +1,5 @@
 import React from 'react';
-import EducationCard from '../EducationCard';
+import EducationCard from '../components/EducationCard';
 import { screen, render } from '@testing-library/react';
 
 const education = {
