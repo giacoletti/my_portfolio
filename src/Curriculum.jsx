@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Header, Card } from 'semantic-ui-react';
+import { Container, Header, Card, Message } from 'semantic-ui-react';
 import axios from 'axios';
 import JobCard from './JobCard';
 import EducationCard from './EducationCard';
@@ -37,6 +37,9 @@ const Curriculum = () => {
   return (
     <Container>
       <Header as="h1" id="cv-header">Giovanni Iacoletti</Header>
+      <Message positive>
+        <Message.Header id="current-activity-header">Apprentice Full Stack Developer at <a href="https://www.craftacademy.se/english/">Craft Academy</a></Message.Header>
+      </Message>
       <Header as="h3" id="work-experience-header">Work Experience</Header>
       <Card.Group>{jobList}</Card.Group>
       <Header as="h3" id="education-header">Education</Header>

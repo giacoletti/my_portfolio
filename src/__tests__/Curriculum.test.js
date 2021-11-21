@@ -12,7 +12,9 @@ describe('Curriculum.jsx', () => {
   });
 
   it('is expected to display current activity header', () => {
-    expect(screen.getByText('Apprentice Full Stack Developer at Craft Academy')).toBeVisible();
+    expect(
+      screen.getByText('Apprentice Full Stack Developer at') && screen.getByText('Craft Academy')
+      ).toBeVisible();
   });
 
   it('is expected to display Work Experience header', () => {
