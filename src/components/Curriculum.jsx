@@ -37,8 +37,8 @@ const Curriculum = () => {
   return (
     <Container>
       <Header as="h1" id="cv-header">Giovanni Iacoletti</Header>
-      <Message positive>
-        <Message.Header id="current-activity-header">Apprentice Full Stack Developer at <a href="https://www.craftacademy.se/english/">Craft Academy</a></Message.Header>
+      <Message floating compact>
+        <Message.Header id="current-activity-header" style={{color: "green"}}>Apprentice Full Stack Developer at <a href="https://www.craftacademy.se/english/">Craft Academy</a></Message.Header>
       </Message>
       <Header as="h3" id="work-experience-header">Work Experience</Header>
       <Card.Group>{jobList}</Card.Group>

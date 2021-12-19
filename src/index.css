@@ -16,6 +16,10 @@ footer {
   padding-bottom: 5em;
 }
 
+.ui.menu {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+
 .ui.card.projectCard {
   margin-bottom: 5em !important;
 }
