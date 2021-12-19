@@ -3,7 +3,7 @@ import { Card, Image } from 'semantic-ui-react';
 
 const ProjectCard = ({ project }) => {
   return (
-    <Card className="projectCard">
+    <Card className="projectCard" href={project.url}>
       <Image alt={`${project.name} image`} src={project.image} wrapped ui={false} />
       <Card.Content>
         <Card.Header>{project.name}</Card.Header>

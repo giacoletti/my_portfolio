@@ -3,18 +3,28 @@
     "id": 1,
     "name": "My First Website",
     "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
-    "description": "This was my first project."
+    "description": "This was my first project.",
+    "url": ""
   },
   {
     "id": 2,
     "name": "FizzBuzz",
     "image": "https://i.ibb.co/B6Tq7VQ/fizz-buzz-ruby.png",
-    "description": "Small FizzBuzz game simulator, written in Ruby."
+    "description": "Small FizzBuzz game simulator, written in Ruby.",
+    "url": ""
   },
   {
     "id": 3,
     "name": "Address Book",
     "image": "https://i.ibb.co/74C0WRY/Address-book.png",
-    "description": "Address book application with more features on the way."
+    "description": "Address book application with more features on the way.",
+    "url": ""
+  },
+  {
+    "id": 4,
+    "name": "Rock Paper Scissor",
+    "image": "https://i.ibb.co/GdWJSn8/rps-project-image.jpg",
+    "description": "Rock Paper Scissor challenge issued by Craft Academy Labs.",
+    "url": "https://github.com/giacoletti/rps_challenge"
   }
 ]

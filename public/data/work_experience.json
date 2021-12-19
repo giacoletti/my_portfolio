@@ -5,7 +5,7 @@
     "jobTitle": "Construction Labourer",
     "period": "May 2020 - March 2021",
     "description": "Spotting excavators for precise excavation operations, laying pipes, steel fixing, operating power tools etc.",
-    "link": "https://www.bmd.com.au/our-companies/bmd-constructions/"
+    "url": "https://www.bmd.com.au/our-companies/bmd-constructions/"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "jobTitle": "Agricultural and Factory Labourer",
     "period": "November 2019 - March 2020",
     "description": "Weeding seed and grain crops by hand or using a hoe. Handling tomato sauce cans and bottles for labelling and packing. Sorting tomatoes on the tomato harvester and cleaning the machine on the go.",
-    "link": "https://opencorpdata.com/au/162201998"
+    "url": "https://opencorpdata.com/au/162201998"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "jobTitle": "Landscaper",
     "period": "May 2019 - November 2019",
     "description": "Weeding, digging trenches, laying pipes, mixing concrete, using power tools, steel fixing. Preparing the final touches for client delivery.",
-    "link": "https://www.dekkerlandscapes.com.au/"
+    "url": "https://www.dekkerlandscapes.com.au/"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
     "jobTitle": "SAP Abap Analyst Developer",
     "period": "May 2017 - August 2018",
     "description": "Analysing applications to provide direct assistance to the clients. Development of Abap applications for SAP ERP systems. Development of Web Dynpro Abap applications. Development of interactive custom Abap reports as well as Module Pools. Development of very detailed Smart Forms. Development of Function Modules, alv, and oo alv.",
-    "link": ""
+    "url": ""
   }
 ]
