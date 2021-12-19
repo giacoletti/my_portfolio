@@ -1,10 +1,10 @@
 describe("User can navigate the app", () => {
-  beforeEach(() => {
-    cy.visit("http://localhost:3000");
+  before(() => {
+    cy.visit("/");
   });
 
   describe("to About tab and it", () => {
-    beforeEach(() => {
+    before(() => {
       cy.get("#about-tab").click();
     });
 
@@ -30,7 +30,7 @@ describe("User can navigate the app", () => {
   });
 
   describe("to My Projects tab and it", () => {
-    beforeEach(() => {
+    before(() => {
       cy.get("#projects-tab").click();
     });
 
@@ -56,7 +56,7 @@ describe("User can navigate the app", () => {
   });
 
   describe("to CV tab and it", () => {
-    beforeEach(() => {
+    before(() => {
       cy.get("#cv-tab").click();
     });
 
@@ -82,7 +82,7 @@ describe("User can navigate the app", () => {
   });
 
   describe("back to My Portfolio/Hello tab and it", () => {
-    beforeEach(() => {
+    before(() => {
       cy.get("#header").click();
     });
 
