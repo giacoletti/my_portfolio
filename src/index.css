@@ -20,6 +20,10 @@ footer {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
 }
 
+.ui.dropdown.link.item>.menu.transition {
+  font-size: 1.3em !important;
+}
+
 .ui.card.projectCard {
   margin-bottom: 5em !important;
 }
