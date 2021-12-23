@@ -22,7 +22,12 @@ const Contact = () => {
       .catch(error => alert(error));
   };
 
-  const handleChange = (e) => setForm({ [e.target.name]: e.target.value });
+  const handleChange = (e) => {
+    setForm({ 
+      ...form,
+      [e.target.name]: e.target.value 
+    });
+  };
 
   return (
     <Container>
