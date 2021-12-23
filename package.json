@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects",
     "test": "react-scripts test",
-    "cy:open": "cypress open & yarn start"
+    "start:silent": "PORT=3000 BROWSER=none react-scripts start",
+    "cy:open": "cypress open",
+    "cypress": "start-server-and-test start:silent http://localhost:3000/ cy:open"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^9.0.0"
+    "cypress": "^9.0.0",
+    "start-server-and-test": "^1.14.0"
   }
 }

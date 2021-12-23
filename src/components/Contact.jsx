@@ -34,18 +34,18 @@ const Contact = () => {
       <Form onSubmit={handleSubmit} netlify name="contact">
       <input type="hidden" name="form-name" value="contact" />
         <Form.Field inline>
-          <label>Your Name:</label>
-          <Input name="name" onChange={handleChange}/>
+          <label data-cy="name-label">Your Name:</label>
+          <Input data-cy="name-input" name="name" onChange={handleChange}/>
         </Form.Field>
         <Form.Field inline>
-          <label>Your Email:&nbsp;</label>
-          <Input type="email" name="email" onChange={handleChange}/>
+          <label data-cy="email-label">Your Email:&nbsp;</label>
+          <Input data-cy="email-input" type="email" name="email" onChange={handleChange}/>
         </Form.Field>
         <Form.Field width={8}>
-          <label>Message:</label>
-          <TextArea name="message" onChange={handleChange}/>
+          <label data-cy="message-label">Message:</label>
+          <TextArea data-cy="message-textarea" name="message" onChange={handleChange}/>
         </Form.Field>
-        <Button type="submit">Send</Button>
+        <Button data-cy="submit-button" type="submit">Send</Button>
       </Form>
     </Container>
   );
