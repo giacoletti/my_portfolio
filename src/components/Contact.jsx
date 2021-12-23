@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container } from "semantic-ui-react";
+import { Container, Form, Input, Button, TextArea } from "semantic-ui-react";
 
 const Contact = () => {
 
@@ -23,38 +23,30 @@ const Contact = () => {
   };
 
   const handleChange = (e) => {
-    setForm({ 
+    setForm({
       ...form,
-      [e.target.name]: e.target.value 
+      [e.target.name]: e.target.value
     });
   };
 
   return (
     <Container>
-      <form onSubmit={handleSubmit} netlify name="contact">
-        <input type="hidden" name="form-name" value="contact" />
-        <p>
-          <label>
-            Your Name:
-            <input type="text" name="name" value={form.name} onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Your Email:
-            <input type="email" name="email" value={form.email} onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Message:
-            <textarea name="message" value={form.message} onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
+      <Form onSubmit={handleSubmit} netlify name="contact">
+      <input type="hidden" name="form-name" value="contact" />
+        <Form.Field inline>
+          <label>Your Name:</label>
+          <Input name="name" onChange={handleChange}/>
+        </Form.Field>
+        <Form.Field inline>
+          <label>Your Email:&nbsp;</label>
+          <Input type="email" name="email" onChange={handleChange}/>
+        </Form.Field>
+        <Form.Field width={8}>
+          <label>Message:</label>
+          <TextArea name="message" onChange={handleChange}/>
+        </Form.Field>
+        <Button type="submit">Send</Button>
+      </Form>
     </Container>
   );
 };
