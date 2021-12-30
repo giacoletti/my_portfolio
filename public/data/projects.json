@@ -26,5 +26,12 @@
     "image": "https://i.ibb.co/GdWJSn8/rps-project-image.jpg",
     "description": "Rock Paper Scissor challenge issued by Craft Academy Labs.",
     "url": "https://github.com/giacoletti/rps_challenge"
+  },
+  {
+    "id": 5,
+    "name": "GitHub Username Search",
+    "image": "https://i.ibb.co/b3LHRph/github-search-app.png",
+    "description": "Midcourse Exam Challenge issued by Craft Academy",
+    "url": "https://github.com/giacoletti/midcourse_exam_november_2021"
   }
 ]
