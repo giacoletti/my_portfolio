@@ -33,5 +33,12 @@
     "image": "https://i.ibb.co/b3LHRph/github-search-app.png",
     "description": "Midcourse Exam Challenge issued by Craft Academy",
     "url": "https://github.com/giacoletti/midcourse_exam_november_2021"
+  },
+  {
+    "id": 6,
+    "name": "Current Weather App",
+    "image": "https://i.ibb.co/XpSkk9s/current-weather-app.png",
+    "description": "Weather App built using OpenWeather API and OpenCage API",
+    "url": "https://github.com/giacoletti/open_weather_app_dec_2021"
   }
 ]
