@@ -9,7 +9,7 @@ describe("User can see CV page", () => {
   });
 
   it("displays current activity header", () => {
-    cy.get("#current-activity-header").should("contain", "Apprentice Full Stack Developer at Craft Academy");
+    cy.get("#current-activity-header").should("contain", "Student Full Stack Developer at Craft Academy");
   });
 
   describe("displays Work Experience section", () => {
