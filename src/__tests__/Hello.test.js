@@ -1,10 +1,10 @@
 import React from 'react';
-import Hello from '../components/Hello';
+import MainView from '../components/MainView';
 import { render, screen } from '@testing-library/react';
 
-describe('Hello.jsx', () => {
+describe('MainView.jsx', () => {
   beforeEach(() => {
-    render(<Hello />);
+    render(<MainView />);
   });
 
   it('is expected to display a welcome message', () => {

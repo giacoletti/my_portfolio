@@ -1,5 +1,5 @@
 import React from 'react';
-import Hello from './components/Hello';
+import MainView from './components/MainView';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
@@ -13,7 +13,7 @@ const App = () => {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Hello />} />
+        <Route path="/" element={<MainView />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/CV" element={<Curriculum />} />

@@ -21,7 +21,7 @@ describe("User can navigate the app", () => {
     });
 
     it("does not display Welcome header", () => {
-      cy.get("#hello").should("not.exist");
+      cy.get("#main-view").should("not.exist");
     });
 
     it("does not display CV header", () => {
@@ -47,7 +47,7 @@ describe("User can navigate the app", () => {
     });
 
     it("does not display Welcome header", () => {
-      cy.get("#hello").should("not.exist");
+      cy.get("#main-view").should("not.exist");
     });
 
     it("does not display CV header", () => {
@@ -69,7 +69,7 @@ describe("User can navigate the app", () => {
     });
 
     it("does not display Welcome header", () => {
-      cy.get("#hello").should("not.exist");
+      cy.get("#main-view").should("not.exist");
     });
 
     it("does not display About Me header", () => {
@@ -81,13 +81,13 @@ describe("User can navigate the app", () => {
     });
   });
 
-  describe("back to My Portfolio/Hello tab and it", () => {
+  describe("back to My Portfolio/Main View and it", () => {
     before(() => {
       cy.get("#header").click();
     });
 
     it("displays Welcome", () => {
-      cy.get("#hello").should("contain", "Welcome to my portfolio");
+      cy.get("#main-header").should("contain", "Welcome to my portfolio");
     });
 
     it("displays homepage content", () => {

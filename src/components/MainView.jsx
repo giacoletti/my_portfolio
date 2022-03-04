@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container, Header, Segment, Grid, Icon } from 'semantic-ui-react';
 
-const Hello = () => {
+const MainView = () => {
   return (
     <Container>
       <Segment id="home-content" vertical>
         <Grid container stackable verticalAlign='middle'>
           <Grid.Row>
             <Grid.Column width={10}>
-              <Header as="h1" id="hello">Welcome to my portfolio</Header>
+              <Header as="h1" id="main-header">Welcome to my portfolio</Header>
               <p style={{ fontSize: '1.15em' }}>
                 This website is a work in progress. More updates with more projects are on the way.
               </p>
@@ -31,4 +31,4 @@ const Hello = () => {
   );
 };
 
-export default Hello;
+export default MainView;
