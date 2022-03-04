@@ -43,13 +43,29 @@
   },
   {
     "id": 7,
+    "name": "Recipe Hub (API)",
+    "image": "https://i.ibb.co/nRNb4Dh/recipe-hub-api.png",
+    "description": "Recipe Hub API built using Ruby on Rails",
+    "url": "https://github.com/CraftAcademy/recipe_hub_api"
+  },
+  {
+    "id": 8,
+    "name": "Recipe Hub (Client)",
+    "image": "https://i.ibb.co/m9wGCnC/recipe-hub-client.png",
+    "description": "Social web application platform built to share recipes",
+    "url": "",
+    "github": "https://github.com/CraftAcademy/recipe_hub_client",
+    "deployed": "https://recipe-hub-ca.netlify.app/"
+  },
+  {
+    "id": 9,
     "name": "Craft Academy - Final Exam (API)",
     "image": "https://i.ibb.co/tLnjhq4/final-exam-api.png",
     "description": "Final exam (API) from the Full Stack Web Developer bootcamp",
     "url": "https://github.com/giacoletti/final_exam_api_both_levels"
   },
   {
-    "id": 8,
+    "id": 10,
     "name": "Craft Academy - Final Exam (Client)",
     "image": "https://i.ibb.co/Z1ZwJ8g/final-exam-client.png",
     "description": "Rewrite a vanilla JavaScript website into a React application",
