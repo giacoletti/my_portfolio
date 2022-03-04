@@ -10,7 +10,7 @@ const EducationCard = ({ education }) => {
         <Card.Meta>
           <span className="educationDate">{education.period}</span>
         </Card.Meta>
-        <Card.Description>{education.subjects}</Card.Description>
+        <Card.Description>{education.description}</Card.Description>
       </Card.Content>
     </Card>
   );
