@@ -12,4 +12,8 @@ describe("Portfolio interface", () => {
     cy.get("#css3-icon").should("be.visible");
     cy.get("#node-icon").should("be.visible");
   });
+
+  it("is expected to display info message", () => {
+    cy.get("[data-cy=info-message]").should("contain.text", "This website is obsolete. A new portfolio website is in development.");
+  });
 });
