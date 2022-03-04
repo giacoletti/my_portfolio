@@ -1,6 +1,13 @@
 [
   {
     "id": 1,
+    "institute": "Craft Academy",
+    "title": "Full Stack Web Developer - Certificate of Excellence",
+    "period": "2022",
+    "description": "Learn Agile software development methodologies along with modern frameworks including: HTML5, Javascript, Ruby on Rails, React, and React Native"
+  },
+  {
+    "id": 2,
     "institute": "Parthenope University of Naples",
     "title": "Department of Computer Science",
     "period": "2016",

@@ -78,6 +78,21 @@ describe("User can see CV page", () => {
 
     it("displays the latest education", () => {
       cy.get("#education-1").within(() => {
+        cy.get(".header").should("contain", "Craft Academy");
+        cy.get(".header").should(
+          "contain",
+          "Full Stack Web Developer - Certificate of Excellence"
+        );
+        cy.get(".educationDate").should("contain", "2022");
+        cy.get(".description").should(
+          "contain",
+          "Learn Agile software development methodologies along with modern frameworks including: HTML5, Javascript, Ruby on Rails, React, and React Native"
+        );
+      });
+    });
+
+    it("displays the second to last education", () => {
+      cy.get("#education-2").within(() => {
         cy.get(".header").should("contain", "Parthenope University of Naples");
         cy.get(".header").should("contain", "Department of Computer Science");
         cy.get(".educationDate").should("contain", "2016");
