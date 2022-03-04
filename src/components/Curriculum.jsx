@@ -40,7 +40,7 @@ const Curriculum = () => {
       <Message floating compact>
         <Message.Header id="current-activity-header" style={{color: "green"}}>Full Stack Developer graduated from <a href="https://www.craftacademy.se/english/">Craft Academy</a></Message.Header>
       </Message>
-      <Header as="h3" id="work-experience-header">Work Experience</Header>
+      <Header as="h3" id="work-experience-header">Experience</Header>
       <Card.Group>{jobList}</Card.Group>
       <Header as="h3" id="education-header">Education</Header>
       <Card.Group>{educationList}</Card.Group>

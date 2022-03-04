@@ -15,13 +15,25 @@ describe("User can see CV page", () => {
     );
   });
 
-  describe("displays Work Experience section", () => {
-    it("displays Work Experience header", () => {
-      cy.get("#work-experience-header").should("contain", "Work Experience");
+  describe("displays Experience section", () => {
+    it("displays Experience header", () => {
+      cy.get("#work-experience-header").should("contain", "Experience");
     });
 
     it("displays the latest work experience", () => {
       cy.get("#job-1").within(() => {
+        cy.get(".header").should("contain", "Craft Academy");
+        cy.get(".header").should("contain", "Full Stack Web Developer");
+        cy.get(".jobDate").should("contain", "October 2021 - February 2022");
+        cy.get(".description").should(
+          "contain",
+          "Build front-end and back-end applications using agile methodologies. Apply Test Driven Development as core flow and adapt as the projects evolve."
+        );
+      });
+    });
+
+    it("displays the second to last work experience", () => {
+      cy.get("#job-2").within(() => {
         cy.get(".header").should("contain", "BMD Constructions");
         cy.get(".header").should("contain", "Construction Labourer");
         cy.get(".jobDate").should("contain", "May 2020 - March 2021");
@@ -32,8 +44,8 @@ describe("User can see CV page", () => {
       });
     });
 
-    it("displays the second to last work experience", () => {
-      cy.get("#job-2").within(() => {
+    it("displays the third to last work experience", () => {
+      cy.get("#job-3").within(() => {
         cy.get(".header").should(
           "contain",
           "Southern Riverina Labour Contracting Pty Ltd"
@@ -50,8 +62,8 @@ describe("User can see CV page", () => {
       });
     });
 
-    it("displays the third to last work experience", () => {
-      cy.get("#job-3").within(() => {
+    it("displays the fourth to last work experience", () => {
+      cy.get("#job-4").within(() => {
         cy.get(".header").should("contain", "Dekker Landscapes Pty Ltd");
         cy.get(".header").should("contain", "Landscaper");
         cy.get(".jobDate").should("contain", "May 2019 - November 2019");
@@ -62,8 +74,8 @@ describe("User can see CV page", () => {
       });
     });
 
-    it("displays the fourth to last work experience", () => {
-      cy.get("#job-4").within(() => {
+    it("displays the fifth to last work experience", () => {
+      cy.get("#job-5").within(() => {
         cy.get(".header").should("contain", "Import IT Consulting");
         cy.get(".header").should("contain", "SAP Abap Analyst Developer");
         cy.get(".jobDate").should("contain", "May 2017 - August 2018");

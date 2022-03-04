@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "company": "Craft Academy",
+    "jobTitle": "Full Stack Web Developer",
+    "period": "October 2021 - February 2022",
+    "description": "Build front-end and back-end applications using agile methodologies. Apply Test Driven Development as core flow and adapt as the projects evolve.",
+    "url": "https://www.craftacademy.se/english/"
+  },
+  {
+    "id": 2,
     "company": "BMD Constructions",
     "jobTitle": "Construction Labourer",
     "period": "May 2020 - March 2021",
@@ -8,7 +16,7 @@
     "url": "https://www.bmd.com.au/our-companies/bmd-constructions/"
   },
   {
-    "id": 2,
+    "id": 3,
     "company": "Southern Riverina Labour Contracting Pty Ltd",
     "jobTitle": "Agricultural and Factory Labourer",
     "period": "November 2019 - March 2020",
@@ -16,7 +24,7 @@
     "url": "https://opencorpdata.com/au/162201998"
   },
   {
-    "id": 3,
+    "id": 4,
     "company": "Dekker Landscapes Pty Ltd",
     "jobTitle": "Landscaper",
     "period": "May 2019 - November 2019",
@@ -24,7 +32,7 @@
     "url": "https://www.dekkerlandscapes.com.au/"
   },
   {
-    "id": 4,
+    "id": 5,
     "company": "Import IT Consulting",
     "jobTitle": "SAP Abap Analyst Developer",
     "period": "May 2017 - August 2018",
