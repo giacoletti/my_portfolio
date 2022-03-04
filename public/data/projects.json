@@ -40,5 +40,19 @@
     "image": "https://i.ibb.co/XpSkk9s/current-weather-app.png",
     "description": "Weather App built using OpenWeather API and OpenCage API",
     "url": "https://github.com/giacoletti/open_weather_app_dec_2021"
+  },
+  {
+    "id": 7,
+    "name": "Craft Academy - Final Exam (API)",
+    "image": "https://i.ibb.co/tLnjhq4/final-exam-api.png",
+    "description": "Final exam (API) from the Full Stack Web Developer bootcamp",
+    "url": "https://github.com/giacoletti/final_exam_api_both_levels"
+  },
+  {
+    "id": 8,
+    "name": "Craft Academy - Final Exam (Client)",
+    "image": "https://i.ibb.co/Z1ZwJ8g/final-exam-client.png",
+    "description": "Rewrite a vanilla JavaScript website into a React application",
+    "url": "https://github.com/giacoletti/final_exam_client_level_2"
   }
 ]
