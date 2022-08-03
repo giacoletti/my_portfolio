@@ -1,6 +1,6 @@
 # Deployed website available
 
-[My Portfolio](https://giovanni-iacoletti.netlify.app/)
+[My Portfolio](https://giovanni-iacoletti-legacy.netlify.app/)
 
 ## Portfolio website
 

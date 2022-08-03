@@ -12,7 +12,7 @@ const MainView = () => {
   return (
     <Container>
       <Message data-cy="info-message" color="yellow" compact>
-        This website is obsolete. A new portfolio website is in development.
+        This website is obsolete. <a href="https://giovanni-iacoletti.netlify.app/">New portfolio</a>.
       </Message>
       <Segment id="home-content" vertical>
         <Grid container stackable verticalAlign="middle">
